@@ -1,0 +1,79 @@
+	Xamarin 是c#在不同平台上的编译器
+		补充知识：c#包括 .NET框架  c#  bindings机制
+
+	
+	编译成二进制Doc(不还是C#)
+		c#两段编译
+		iOS： 用AOT,禁止动态代码
+		android:支持动态
+	
+	
+	不同平台的SDK
+		在C#里都有对应
+
+	例如：windows平台
+		windows.Networking -> System.Net
+		windows.Storage -> System
+		
+
+	     iOS平台
+		UIKit -> System.Net
+		CoreGraphics -> System
+
+	     Android API
+		NFC -> System.Xml
+		Renderscript -> System.IO
+
+	   
+	HTML5的性能问题：
+		并发
+		大数据查询
+
+	HTML5的技术要点
+		使用浏览器引擎加载页面
+
+	HTML5对控件的应用		
+		实现所有平台上的对应控件的功能的交集
+
+	HTML5的适用场合
+		过渡，已有网站，需要在手机端浏览（成本低，用户体验不佳）
+
+	Xamarin的性能
+		原生化的用户体验
+		原生化的性能
+		
+	
+	UI层需要原生
+		业务逻辑可以共享
+
+	 
+	实现方式
+		File Link/ Project Linker
+		PCL profile
+		MVVM Cross(*)
+		Universal Apps
+
+	Xamarin用法
+		mac OS  
+			工具 
+			Xamarin Studio、iOS9.2SDK、Android6.0、
+
+			可编译项目
+			iOS、Android、Forms、Mac
+
+		window
+			工具
+			安装windows7+的机器、安装iOS9.2SDK的Mac机、Android6.0、Visual Studio
+
+			可编译项目
+			iOS、Android、Windows Phone、Windows
+
+	Xamarin.Mac使用简介
+		开发工具
+			C#语言、.NET框架
+			Xamarin.Mac、Xamarin Studio、Xcode’s Interface Builder
+		
+		create Mac-> Cocoa App 
+
+	
+		
